@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@700;600&display=swap');
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.box {
+    width: 2000px;
+    /* Width of the box */
+    height: 1950px;
+    /* Height of the box */
+    background-color: #FCD191;
+    /* Box color */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* Optional: Add a border */
+    border-radius: 50px;
+    /* Optional: Add rounded corners */
+}
+
+button {
+    position: absolute;
+    background-color: #F28500;
+    /* Button background color */
+    padding: 10px;
+    width: 1180px;
+    /* Adjust the width as needed */
+    margin-left: -550px;
+    /* Center the button horizontally */
+    transform: translateY(525%);
+    /* Adjust the vertical position */
+    height: 140px;
+    /* Button height */
+    border: none;
+    /* Remove default border */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 16px;
+    /* Font size */
+    color: white;
+    /* Text color */
+    font-size: 60px;
+    font-weight: 600;
+    font-style: bold;
+    cursor: pointer;
+    /* Change cursor to pointer on hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    /* Optional shadow for depth */
+    transition: background-color 0.3s, transform 0.3s;
+    /* Smooth transitions */
+}
+
+
+.svg-icon {
+    position: absolute;
+    width: 17%;
+    /* Set the desired width */
+    height: 17%;
+    /* Maintain aspect ratio */
+    margin-top: -1250px;
+    /* Space below the icon */
+    filter: drop-shadow(0px 10px 4px rgba(0, 0, 0, 0.3))
+}
+
+.login-text {
+    position: absolute;
+    margin-top: -550px;
+    /* Space between the SVG and the text */
+    font-size: 100px;
+    /* Adjust font size as needed */
+    color: #525252;
+    /* Text color */
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+    font-weight: 600;
+    text-shadow: 4px 10px 4px rgba(0, 0, 0, 0.2);
+}
+
+.text-email {
+    position: absolute;
+    margin-top: -100px;
+    margin-left: -550px;
+    color: black;
+    font-size: 70px;
+    font-weight: bold;
+    font-weight: 500;
+    font-family: 'Nunito Sans', sans-serif;
+    /*text-shadow: 4px 8px 4px rgba(0, 0, 0, 0.2);*/
+}
+
+.text-pass {
+    position: absolute;
+    margin-top: 280px;
+    margin-left: -550px;
+    color: black;
+    font-size: 70px;
+    font-weight: bold;
+    font-weight: 500;
+    font-family: 'Nunito Sans', sans-serif;
+    /*text-shadow: 4px 8px 4px rgba(0, 0, 0, 0.2);*/
+}
+
+
+.email-input {
+    position: absolute;
+    transform: translateY(30%);
+    padding: 10px;
+    /* Inner spacing */
+    margin-left: -550px;
+    width: 1150px;
+    /* Width of the input */
+    height: 100px;
+    border: 3px solid #7D757A;
+    /* Border color */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 60px;
+    /* Font size */
+    box-shadow: 2px 10px 4px rgba(0, 0, 0, 0.3);
+    /* Subtle shadow for depth */
+    transition: border-color 0.3s;
+    /* Smooth transition for border color */
+}
+
+.password-input {
+    position: absolute;
+    transform: translateY(350%);
+    padding: 10px;
+    /* Inner spacing */
+    width: 1150px;
+    /* Width of the input */
+    height: 100px;
+    margin-left: -550px;
+    border: 3px solid #7D757A;
+    /* Border color */
+    border-radius: 10px;
+    /* Rounded corners */
+    font-size: 60px;
+    /* Font size */
+    box-shadow: 2px 10px 4px rgba(0, 0, 0, 0.3);
+    /* Subtle shadow for depth */
+}
